@@ -12,7 +12,7 @@
     <ul>
       <% skills.forEach(function(s, idx) { %>
         <li>
-            <form action="/skill/<%= idx %>?_method=DELETE"
+            <form action="/skills/<%= idx %>?_method=DELETE"
                 class="delete-form" method="POST">
                 <button type="submit">X</button>
             </form>
